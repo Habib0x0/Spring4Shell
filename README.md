@@ -4,7 +4,7 @@
 This is a dockerized application that is vulnerable to the Spring4Shell vulnerability (CVE-2022-22965). 
 
 # How To Reproduce 
-docker run -d -p 8082:8080 --name springrce -it vulfocus/spring-core-rce-2022-03-29
+`docker run -d -p 8082:8080 --name springrce -it vulfocus/spring-core-rce-2022-03-29`
 
 # Usage 
 `ruby CVE-2022-22965.rb target_url`
